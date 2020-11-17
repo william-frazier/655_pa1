@@ -1,0 +1,21 @@
+set style data linespoints
+set title 'Throughput from laptop to'
+set xlabel 'Message size (x1024)'
+set ylabel 'Kbps (avg of 1000 tests)'
+set nogrid
+
+"csa1"
+1 430
+2 830 
+4 1540 
+8 2350
+16 3470
+32 4620
+
+"Ohio"
+1 57
+2 142
+4 289
+8 377
+16 540
+32 739

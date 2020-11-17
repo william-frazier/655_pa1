@@ -1,0 +1,47 @@
+
+set style data linespoints
+set title 'Throughput from laptop to Ohio'
+set xlabel 'Message size (x1024)'
+set ylabel 'Kbps (avg of 1000 tests)'
+set nogrid
+
+
+"0"
+1 57
+2 142
+4 289
+8 377
+16 540
+32 739
+
+"2"
+1 50
+2 117
+4 241
+8 345
+16 539
+32 723
+
+"4"
+1 58
+2 142
+4 261
+8 338
+16 522
+32 721
+
+"8"
+1 54
+2 136
+4 275
+8 375
+16 528
+32 712
+
+"16"
+1 52
+2 120
+4 250
+8 353
+16 514
+32 695
